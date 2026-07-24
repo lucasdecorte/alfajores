@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Georgia', serif;
+}
+
+
+body{
+
+    background:#f8f1e7;
+    color:#3b2112;
+
+}
+
+
+
+/* HEADER */
+
+header{
+
+    background:linear-gradient(
+        135deg,
+        #2b1408,
+        #6b3a1e
+    );
+
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+
+}
+
+
+header h1{
+
+    font-size:50px;
+    margin-bottom:15px;
+    letter-spacing:2px;
+
+}
+
+
+header p{
+
+    font-size:22px;
+    font-style:italic;
+
+}
+
+
+
+
+/* INICIO */
+
+
+.inicio{
+
+    text-align:center;
+    padding:60px 20px;
+
+}
+
+
+.inicio h2{
+
+    font-size:36px;
+    margin-bottom:20px;
+
+}
+
+
+.inicio p{
+
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+
+}
+
+
+
+
+/* CATALOGO */
+
+
+.catalogo{
+
+    padding:50px 8%;
+
+}
+
+
+.catalogo h2{
+
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+
+}
+
+
+
+.productos{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+
+}
+
+
+
+
+.producto{
+
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+}
+
+
+
+.producto:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.producto img{
+
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+
+}
+
+
+
+.producto h3{
+
+    margin:20px 0 10px;
+    font-size:25px;
+
+}
+
+
+
+.producto p{
+
+    color:#665044;
+    margin-bottom:15px;
+
+}
+
+
+
+.producto h4{
+
+    font-size:20px;
+    margin:8px;
+
+}
+
+
+
+/* BOTON */
+
+
+.boton{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:#c1121f;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 40px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+
+.boton:hover{
+
+    background:#8f0d16;
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+/* FRASES */
+
+
+.frases{
+
+    background:#3b2112;
+    color:white;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+
+
+.frases h2{
+
+    font-size:35px;
+    margin-bottom:30px;
+
+}
+
+
+
+.frases p{
+
+    font-size:20px;
+    margin:15px;
+
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    background:#f1dfc7;
+
+}
+
+
+
+footer h2{
+
+    font-size:32px;
+
+}
+
+
+
+footer p{
+
+    margin-top:15px;
+    font-size:18px;
+
+}
+
+
+
+
+
+/* CELULAR */
+
+
+@media(max-width:700px){
+
+
+header h1{
+
+    font-size:38px;
+
+}
+
+
+
+.inicio h2{
+
+    font-size:28px;
+
+}
+
+
+
+.producto img{
+
+    height:220px;
+
+}
+
+
+}
